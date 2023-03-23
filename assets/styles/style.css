@@ -5,14 +5,17 @@
     font-size: 20px;
 }
 
+body {
+    background: url("../img/bg.png");
+    background-size: cover;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     font-family: Montserrat, sans-serif;
     max-width: 2160px;
     margin: 0 auto;
-    background: url("../img/bg.png");
-    background-size: cover;
 }
 
 .container-header {
@@ -33,7 +36,7 @@
 
 .header-title {
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .phone {
@@ -52,11 +55,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 0 140px 140px 140px;
     align-items: center;
     justify-content: center;
     max-width: 2050px;
-
+    margin: 0 auto;
 }
 
 .button {
@@ -134,5 +136,9 @@
     .number {
         font-size: 2em;
     }
+
+
+
+
 
 }
